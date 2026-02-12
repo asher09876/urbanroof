@@ -1,21 +1,9 @@
 # urbanroof
-Absolutely — here’s a **complete, professional README.md** you can drop directly into your repo.
-
-This is written to sound **engineer-level**, align with the assignment rubric, and clearly explain your design decisions.
-
-Just copy this into:
-
-```
-README.md
-```
-
----
-
 # AI DDR Generator — Applied AI Builder Assignment
 
 ## Overview
 
-This project implements an end-to-end AI workflow that converts raw building inspection and thermal imaging PDFs into a structured diagnostic output (`diagnostic.json`).
+This project implements an end to end AI workflow that converts raw building inspection and thermal imaging PDFs into a structured diagnostic output (`diagnostic.json`).
 
 The system is designed as a **hybrid AI + deterministic pipeline**:
 
@@ -54,7 +42,7 @@ Inspection PDF + Thermal PDF
       Text Extraction
   (PyMuPDF + EasyOCR fallback)
             ↓
-   Structured LLM Extraction
+     LLM Extraction
   (Areas, Systems, Thermal Data)
             ↓
    Python Merge + Validation
@@ -110,13 +98,13 @@ Intermediate files (`inspection.txt`, `thermal.txt`, `areas.json`, etc.) are gen
 * If extracted text is below a threshold, EasyOCR is automatically triggered.
 * OCR output is merged with native text.
 
-This ensures thermal PDFs (which are image-heavy) are still fully processed.
+This ensures thermal PDFs is fully processed.
 
 ---
 
 ### 2. Area-Level Extraction (LLM)
 
-Extracts room-wise observations:
+Extracts room wise observations:
 
 * Area name
 * Negative observation (damage)
@@ -138,7 +126,7 @@ Extracts building-wide systems:
 
 Output: `systems.json`
 
-These represent root-cause systems rather than localized symptoms.
+These represent root cause systems rather than localized symptoms.
 
 ---
 
@@ -187,16 +175,21 @@ This file acts as the system’s “truth layer”.
 
 ## Running the Pipeline
 
+### setup virtual env
+```bash
+python -m venv venv
+venv\scripts\activate
+```
 ### Install dependencies
 
 ```bash
-pip install pymupdf easyocr pillow openai python-dotenv
+pip install -r requirements.txt
 ```
 
 Set your OpenAI key:
 
 ```
-OPENAI_API_KEY=your_key_here
+OPENAI_API_KEY=open_api+key
 ```
 
 ---
@@ -215,50 +208,6 @@ On success, you will see:
 data/diagnostic.json
 ```
 
----
-
-## Accuracy & Reliability
-
-Accuracy and reliability are achieved through:
-
-* LLM usage limited to structured extraction only
-* Strict JSON schema validation at every stage
-* Numeric validation for thermal readings
-* OCR fallback for image-heavy PDFs
-* Deterministic Python-based root cause and severity logic
-* Explicit missing-data tracking
-* Fail-loud pipeline design (execution stops on invalid output)
-
-This prevents hallucinated conclusions and ensures repeatable results.
-
----
-
-## Known Limitations
-
-* OCR accuracy depends on scan quality.
-* Thermal images do not explicitly label rooms; area mapping is heuristic.
-* Severity logic is intentionally simplified for transparency.
-* No historical inspection data is used.
-
----
-
-## Improvements With More Time
-
-* Weighted severity scoring model
-* Confidence scores per observation
-* Better spatial alignment of thermal images to rooms
-* Automated DDR PDF generation
-* Audit logging for traceability
-* Unit tests for reasoning logic
-* Historical trend analysis
-
----
-
-## Notes
-
-This project intentionally avoids frontend development to focus on the AI workflow, validation, and diagnostic reasoning layers, as required by the assignment.
-
----
 
 ## Final Output
 
@@ -268,15 +217,3 @@ The primary deliverable is:
 data/diagnostic.json
 ```
 
-This structured diagnostic data can be rendered into a client-facing DDR using any downstream formatting layer (Markdown, PDF, web).
-
----
-
-If you’d like next, I can help you with:
-
-✅ `requirements.txt`
-✅ Loom speaking outline
-✅ final DDR generator
-✅ interview prep
-
-Just tell me 👍
