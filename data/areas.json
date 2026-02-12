@@ -1,0 +1,60 @@
+{
+  "areas": [
+    {
+      "area_name": "Hall",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Common Bathroom",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "hollowness",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Bedroom",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Master Bedroom",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "MB Bathroom tile hollowness",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Kitchen",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Master Bedroom Wall",
+      "negative_observation": "Dampness",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Parking Area",
+      "negative_observation": "Seepage",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Common Bathroom Ceiling",
+      "negative_observation": "Dampness and outlet Leakage",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    }
+  ]
+}

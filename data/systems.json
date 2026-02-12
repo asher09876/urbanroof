@@ -1,0 +1,20 @@
+{
+  "bathroom_issues": {
+    "tile_joint_gaps": "Yes",
+    "nahani_trap_damage": "Yes",
+    "concealed_plumbing": "Yes"
+  },
+  "external_wall": {
+    "cracks_present": "Yes",
+    "vegetation": "No",
+    "internal_dampness": "Yes"
+  },
+  "terrace": {
+    "surface_cracks": "Not Available",
+    "hollow_sound": "Not Available",
+    "slope_disturbance": "Not Available"
+  },
+  "parking": {
+    "ceiling_leakage": "Yes"
+  }
+}

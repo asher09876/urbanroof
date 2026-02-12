@@ -1,0 +1,105 @@
+{
+  "areas": [
+    {
+      "area_name": "Hall",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Common Bathroom",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "hollowness",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Bedroom",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Master Bedroom",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "MB Bathroom tile hollowness",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Kitchen",
+      "negative_observation": "Dampness at the skirting level",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Master Bedroom Wall",
+      "negative_observation": "Dampness",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Parking Area",
+      "negative_observation": "Seepage",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "area_name": "Common Bathroom Ceiling",
+      "negative_observation": "Dampness and outlet Leakage",
+      "positive_source": "Not Available",
+      "thermal_confirmation": "Not Available",
+      "confidence": "High"
+    }
+  ],
+  "bathroom_issues": {
+    "tile_joint_gaps": "Yes",
+    "nahani_trap_damage": "Yes",
+    "concealed_plumbing": "Yes"
+  },
+  "external_wall": {
+    "cracks_present": "Yes",
+    "vegetation": "No",
+    "internal_dampness": "Yes"
+  },
+  "terrace": {
+    "surface_cracks": "Not Available",
+    "hollow_sound": "Not Available",
+    "slope_disturbance": "Not Available"
+  },
+  "parking": {
+    "ceiling_leakage": "Yes"
+  },
+  "overall": {
+    "primary_root_causes": [
+      "External wall crack ingress",
+      "Bathroom waterproofing failure",
+      "Vertical moisture migration"
+    ],
+    "severity": "High",
+    "missing_information": [
+      "Hall:positive_source",
+      "Hall:thermal_confirmation",
+      "Common Bathroom:thermal_confirmation",
+      "Bedroom:positive_source",
+      "Bedroom:thermal_confirmation",
+      "Master Bedroom:thermal_confirmation",
+      "Kitchen:positive_source",
+      "Kitchen:thermal_confirmation",
+      "Master Bedroom Wall:positive_source",
+      "Master Bedroom Wall:thermal_confirmation",
+      "Parking Area:positive_source",
+      "Parking Area:thermal_confirmation",
+      "Common Bathroom Ceiling:positive_source",
+      "Common Bathroom Ceiling:thermal_confirmation",
+      "terrace:surface_cracks",
+      "terrace:hollow_sound",
+      "terrace:slope_disturbance"
+    ]
+  }
+}

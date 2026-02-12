@@ -1,0 +1,274 @@
+{
+  "thermal_readings": [
+    {
+      "image_name": "RB02380X.JPG",
+      "hotspot_temp": 28.8,
+      "coldspot_temp": 23.4,
+      "temperature_difference": 5.4,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02386X.JPG",
+      "hotspot_temp": 27.4,
+      "coldspot_temp": 22.4,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02395X.JPG",
+      "hotspot_temp": 27.0,
+      "coldspot_temp": 22.0,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02402X.JPG",
+      "hotspot_temp": 25.7,
+      "coldspot_temp": 20.7,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02403X.JPG",
+      "hotspot_temp": 25.5,
+      "coldspot_temp": 20.5,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02404X.JPG",
+      "hotspot_temp": 25.8,
+      "coldspot_temp": 20.8,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02405X.JPG",
+      "hotspot_temp": 26.2,
+      "coldspot_temp": 21.2,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02406X.JPG",
+      "hotspot_temp": 26.5,
+      "coldspot_temp": 21.5,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02392X.JPG",
+      "hotspot_temp": 25.8,
+      "coldspot_temp": 20.8,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02393X.JPG",
+      "hotspot_temp": 25.9,
+      "coldspot_temp": 20.9,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02394X.JPG",
+      "hotspot_temp": 26.0,
+      "coldspot_temp": 21.0,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02396X.JPG",
+      "hotspot_temp": 26.1,
+      "coldspot_temp": 21.1,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02397X.JPG",
+      "hotspot_temp": 26.3,
+      "coldspot_temp": 21.3,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02398X.JPG",
+      "hotspot_temp": 25.6,
+      "coldspot_temp": 20.6,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02399X.JPG",
+      "hotspot_temp": 26.5,
+      "coldspot_temp": 21.5,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02400X.JPG",
+      "hotspot_temp": 25.2,
+      "coldspot_temp": 20.2,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02401X.JPG",
+      "hotspot_temp": 25.6,
+      "coldspot_temp": 20.6,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02381X.JPG",
+      "hotspot_temp": 27.0,
+      "coldspot_temp": 22.0,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02382X.JPG",
+      "hotspot_temp": 26.7,
+      "coldspot_temp": 21.7,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02383X.JPG",
+      "hotspot_temp": 26.5,
+      "coldspot_temp": 21.5,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02384X.JPG",
+      "hotspot_temp": 27.3,
+      "coldspot_temp": 22.3,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02385X.JPG",
+      "hotspot_temp": 27.3,
+      "coldspot_temp": 22.3,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02387X.JPG",
+      "hotspot_temp": 25.2,
+      "coldspot_temp": 20.2,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02388X.JPG",
+      "hotspot_temp": 25.1,
+      "coldspot_temp": 20.1,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02389X.JPG",
+      "hotspot_temp": 25.9,
+      "coldspot_temp": 20.9,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02390X.JPG",
+      "hotspot_temp": 26.9,
+      "coldspot_temp": 21.9,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02391X.JPG",
+      "hotspot_temp": 25.6,
+      "coldspot_temp": 20.6,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02377X.JPG",
+      "hotspot_temp": 26.9,
+      "coldspot_temp": 21.9,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02378X.JPG",
+      "hotspot_temp": 26.4,
+      "coldspot_temp": 21.4,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    },
+    {
+      "image_name": "RB02379X.JPG",
+      "hotspot_temp": 27.8,
+      "coldspot_temp": 22.8,
+      "temperature_difference": 5.0,
+      "moisture_indicator": "Yes",
+      "area_reference": "Not Available",
+      "confidence": "High"
+    }
+  ]
+}
